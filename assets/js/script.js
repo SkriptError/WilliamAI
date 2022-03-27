@@ -26,8 +26,9 @@ function startIntroTyping() {
   })
     .type('welcome.', { delay: 1200 })
     .delete(null, { delay: 1000 })
-    .type(`${mobile ? 'tap' : 'press any key'} to enter. (if you dare!)
-    public static void`)
+    .type(`${mobile ? 'tap' : 'press any key'} to enter. (if you dare!)`)
+    .delete(null, { delay: 1000 })
+    .type(`${mobile ? 'tap' : 'Initalizing...'}`)
     .go();
 
   setTimeout(function () {
