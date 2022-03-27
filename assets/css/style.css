@@ -64,6 +64,14 @@ p,
   padding-bottom: 5px;
 }
 
+.maintext2 {
+  font-size: 2.5rem;
+  padding: 0%;
+  margin: 0%;
+  color: #f31717;
+  padding-bottom: 5px;
+}
+
 .subtext {
   font-size: 1rem;
   font-style: italic;
