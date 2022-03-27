@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['certified dumbass', 'dumbass', 'Java Dev', 'forth founder | iconic llc', 'i like cattos'];
+  let text = ['Web Developer...', 'Minecraft Client Launcher Developer...', 'Soon to be Java Dev!', 'Founder | Imperial CB', 'Co-Founder | GMGLLC'];
 
   text.forEach(function (language, index) {
     typer.move(null);
