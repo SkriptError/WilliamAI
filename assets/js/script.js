@@ -63,7 +63,7 @@ function startMainTyping() {
 }
 
 function switchScreen() {
-  document.title = 'Kay | home';
+  document.title = 'SkriptError | ERROR 404';
 
   $('.intro').fadeOut(1000, function () {
     $('.bg-image').fadeIn(1000);
