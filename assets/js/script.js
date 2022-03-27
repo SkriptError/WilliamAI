@@ -27,9 +27,9 @@ function startIntroTyping() {
     .type('welcome.', { delay: 1200 })
     .delete(null, { delay: 1000 })
     .type(`${mobile ? 'tap' : 'press any key'} to enter. (if you dare!)`)
-    .delete(null, { delay: 1000 })
-    .type('Initalizing...', { delay: 1200 })
     .go();
+    .delete(null, { delay: 1000 })
+    .type('Initalizing...', { delay: 500 })
 
   setTimeout(function () {
     switchAllowed = true;
@@ -66,9 +66,9 @@ function startMainTyping() {
 function switchScreen() {
   document.title = 'SkriptError | ERROR 404';
 
-  $('.intro').fadeOut(1000, function () {
-    $('.bg-image').fadeIn(1000);
-    $('.main').fadeIn(1000, function () {
+  $('.intro').fadeOut(2000, function () {
+    $('.bg-image').fadeIn(2000);
+    $('.main').fadeIn(2000, function () {
       startMainTyping();
     });
   });
