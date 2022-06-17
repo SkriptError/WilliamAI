@@ -26,7 +26,7 @@ function startIntroTyping() {
   })
     .type('welcome...', { delay: 1200 })
     .delete(null, { delay: 1000 })
-    .type(`${mobile ? 'tap' : 'press any key'} to enter. (if you dare!) sorry if the audio is a little bit sad jk no im not it represents my life...`)
+    .type(`${mobile ? 'tap' : 'press any key'} to enter. (if you dare!)...`)
     .go();
 
   setTimeout(function () {
@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['Web Developer...', 'Minecraft Client Launcher Developer...', 'Soon to be Java Dev!', 'Founder | Imperial CB', 'Co-Founder | GMGLLC', 'You dont know what depression is until you see me...'];
+  let text = ['Web Developer...', 'Minecraft Client Launcher Developer...', 'Soon to be Java Dev!', 'Founder | Imperial CB', 'Co-Founder | GMGLLC'];
 
   text.forEach(function (language, index) {
     typer.move(null);
