@@ -7,7 +7,7 @@ body {
 p,
 .maintext,
 .subtext {
-  color: #269909;
+  color: #ffffff;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
 
@@ -68,7 +68,7 @@ p,
   font-size: 2.5rem;
   padding: 0%;
   margin: 0%;
-  color: red;
+  color: #6c0000;
   padding-bottom: 5px;
 }
 
