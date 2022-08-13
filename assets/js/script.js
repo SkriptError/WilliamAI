@@ -26,8 +26,8 @@ function startIntroTyping() {
   })
     .type('welcome...', { delay: 1200 })
     .delete(null, { delay: 1000 })
-    .type(`${mobile ? 'tap' : 'This is a AI desgined to'} greet you before going into the actual site. my Name is willam. and welcome to SkriptError"s aka Daniel.S.Norstrom or Full name: Daniel Steven Norstom"s Website Please state your name before Entering:`)
-    .go
+    .type(`${mobile ? 'tap' : 'press any key'} to enter.`)
+    .go();
 
   setTimeout(function () {
     switchAllowed = true;
