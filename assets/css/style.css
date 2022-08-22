@@ -27,6 +27,10 @@ p,
   background-size: cover;
 }
 
+b {
+color: red;
+}
+
 .box {
   position: fixed;
   top: 50%;
