@@ -24,7 +24,7 @@ function startIntroTyping() {
   new TypeIt('#intro-text', {
     speed: 50,
   })
-    .type('welcome...', { delay: 1200 })
+    .type('Hello! my name is William and I am a AI Created by Daniel S Norstrom or his internet name <b>(SKRIPTERROR)</b>', { delay: 1200 })
     .delete(null, { delay: 1000 })
     .type(`${mobile ? 'tap' : 'press any key'} to enter.`)
     .go();
