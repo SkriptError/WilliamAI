@@ -37,7 +37,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['Web Developer...', 'Minecraft Client Launcher Developer...', 'Soon to be C# Developer!', 'Owner | KohiHQ', 'Co-Founder | GMGLLC'];
+  let text = ['Web Developer...', 'Minecraft Client Launcher Developer...', 'Soon to be C# Developer!', 'Owner | Apollo Cheats', 'Co-Founder | GMGLLC'];
 
   text.forEach(function (language, index) {
     typer.move(null);
