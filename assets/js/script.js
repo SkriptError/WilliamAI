@@ -26,8 +26,7 @@ function startIntroTyping() {
   })
     .type('Hello! my name is William and I am a AI Created by Daniel S Norstrom or his internet name <b>(SKRIPTERROR)</b>', { delay: 1200 })
     .delete(null, { delay: 1000 })
-    .type(`${mobile ? 'tap' : 'I William am still in development'} and is a WIP (Work in Progress) Soon I will have more capablitys to respond to messages and questions you may have but for right now I am just text on a screen until I have a Fully Coded API but to go to skripterrors website click any button.`)
-    .go();
+    .type('I William am still in development and is a WIP (Work in Progress) Soon I will have more capablitys to respond to messages and questions you may have but for right now I am just text on a screen until I have a Fully Coded API but to go to skripterrors website click any button.', { delay: 1200 })
 
   setTimeout(function () {
     switchAllowed = true;
@@ -59,32 +58,6 @@ function startMainTyping() {
   });
 
   typerStartTyping(typer);
-}
-
-function switchScreen() {
-  document.title = 'SkriptError | ERROR 404';
-
-  $('.intro').fadeOut(2000, function () {
-    $('.bg-image').fadeIn(2000);
-    $('.main').fadeIn(2000, function () {
-      startMainTyping();
-    });
-  });
-
-  ['background', 'rain'].forEach(function (audioName) {
-    let fullPath = `assets/audio/${audioName}.mp3`;
-
-    let audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', fullPath);
-    audioElement.style.display = 'none';
-
-    audioElement.addEventListener('ended', function () {
-      this.currentTime = 0;
-      this.play();
-    });
-
-    audioElement.play();
-  });
 }
 
 document.addEventListener('keydown', function (e) {
