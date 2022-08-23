@@ -26,7 +26,7 @@ function startIntroTyping() {
   })
     .type('Hello! my name is William and I am a AI Created by Daniel S Norstrom or his internet name <b>(SKRIPTERROR)</b>', { delay: 1200 })
     .delete(null, { delay: 1000 })
-    .type('I William am still in development and is a WIP (Work in Progress) Soon I will have more capablitys to respond to messages and questions you may have but for right now I am just text on a screen until I have a Fully Coded API but to go to skripterrors website click any button.', { delay: 1200 })
+    .type('I William am still in development and is a WIP (Work in Progress) Soon I will have more capablitys to respond to messages and questions you may have but for right now I am just text on a screen until I have a Fully Coded API but thanks for your intrest.', { delay: 1200 })
 
   setTimeout(function () {
     switchAllowed = true;
